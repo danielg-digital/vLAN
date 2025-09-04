@@ -21,8 +21,9 @@ This allows me to simulate attacker and target environments without exposing the
 - Open **Hyper-V Manager → Virtual Switch Manager**.  
 - Add a **Private** switch named `LabSwitch`.  
   *(Private keeps traffic isolated; Internal allows host ↔ VM if needed).*
+  
+<img width="720" height="682" alt="Screenshot 2025-09-04 104714" src="https://github.com/user-attachments/assets/c8bf1db5-c4b7-43fc-8fff-ac3081d7ef19" />
 
-📸 *[Placeholder: Screenshot of Virtual Switch Manager with LabSwitch created]*
 
 ---
 
@@ -34,9 +35,10 @@ For each VM:
 
 - **Win10 Client** → VLAN 10  
 - **WinServer** → VLAN 20  
-- **Kali** → VLAN 10  
+- **Kali** → VLAN 10
+- 
+<img width="724" height="692" alt="Screenshot 2025-09-04 104936" src="https://github.com/user-attachments/assets/05bff194-c0bf-4280-9b03-e3ddc6153dc0" />
 
-📸 *[Placeholder: Screenshot of VM Network Adapter VLAN ID setting]*
 
 ---
 
